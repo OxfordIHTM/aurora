@@ -1,0 +1,58 @@
+title: aurora
+
+url: https://oxford-ihtm.io/aurora/
+
+template:
+  bootstrap: 5
+  bootswatch: litera
+  theme: haddock
+  ganalytics: #
+
+home:
+  links:
+  - text: Read more about the Oxford University Research Archive
+    href: https://ora.ox.ac.uk/about
+
+navbar:
+  bg: primary
+  type: light
+  structure:
+    left:  [home, intro, reference, articles, news]
+    right: [twitter, facebook, linkedin, github]
+
+  components:
+    # articles:
+    #   text: Articles
+    #   menu:
+    #   - text: "ICD-11 Foundation"
+    #     href: articles/icd11_foundation.html
+    twitter:
+      icon: "fab fa-twitter fa-lg"
+      href: http://twitter.com/OxIHTM
+    facebook:
+      icon: "fab fa-facebook fa-lg"
+      href: https://www.facebook.com/MSc-in-International-Health-and-Tropical-Medicine-University-of-Oxford-433056700228246/
+    linkedin:
+      icon: "fab fa-linkedin fa-lg"
+      href: https://www.linkedin.com/company/international-health-and-tropical-medicine
+
+
+reference:
+  - title: Description
+    contents:
+    - aurora
+
+  - title: Identify
+    contents:
+    - ora_identify
+
+  - title: List
+    contents:
+    - ora_list_meta_formats
+    - ora_list_records
+    - ora_list_sets
+
+  - title: Structure
+    contents:
+    - ora_structure_identify
+
