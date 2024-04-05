@@ -4,14 +4,18 @@
 \alias{ora_list_meta_formats}
 \title{List metadata formats}
 \usage{
-ora_list_meta_formats(base_url = "https://ora.ox.ac.uk/oai2")
+ora_list_meta_formats(base_url = "https://ora.ox.ac.uk/oai2", tabular = TRUE)
 }
 \arguments{
 \item{base_url}{The OAI-PMH endpoint base URL. Set to
-https://ora.ox.ac.uk/oai2}
+https://ora.ox.ac.uk/oai2.}
+
+\item{tabular}{Logical. Should response be structured into a table?
+Default is TRUE.}
 }
 \value{
-XML OAI response
+A data.frame (default) or an XML document (if \code{tabular = FALSE})
+with identifying information on the OAI metadata formats.
 }
 \description{
 List metadata formats

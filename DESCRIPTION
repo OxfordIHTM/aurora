@@ -18,7 +18,11 @@ Description: The Oxford University Research Archive (ORA) <https://ora.ox.ac.uk/
     functions to interface with the ORA API <https://ora.ox.ac.uk/api>.
 License: GPL (>= 3)
 Imports: 
+    dplyr,
     httr2,
+    rlang,
+    tibble,
+    tidyr,
     xml2
 Encoding: UTF-8
 Language: en-GB
