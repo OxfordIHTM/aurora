@@ -1,4 +1,4 @@
-Package: ourora
+Package: aurora
 Type: Package
 Title: Interface to the Oxford University Research Archive
 Version: 0.0.0.9000
@@ -17,9 +17,14 @@ Description: The Oxford University Research Archive (ORA) <https://ora.ox.ac.uk/
     provides API access to its resources. This package provides low level
     functions to interface with the ORA API <https://ora.ox.ac.uk/api>.
 License: GPL (>= 3)
+Imports: 
+    httr2,
+    xml2
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
-URL: https://OxfordIHTM/ourora/, https://github.com/OxfordIHTM/ourora
-BugReports: https://github.com/OxfordIHTM/ourora/issues
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
+Roxygen: list(markdown = TRUE)
+URL: https://oxford-ihtm.io/aurora/, https://github.com/OxfordIHTM/aurora
+BugReports: https://github.com/OxfordIHTM/aurora/issues
+
