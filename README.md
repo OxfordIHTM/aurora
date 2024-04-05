@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# aurora: Interface to the Oxord University Research Archive <img src="man/figures/logo.png" width="200" align="right" />
+# aurora: Interface to the Oxord University Research Archive (ORA) API <img src="man/figures/logo.png" width="200" align="right" />
 
 <!-- badges: start -->
 
@@ -62,4 +62,35 @@ install.packages(
 
 ## Citation
 
+If you find the `aurora` package useful please cite using the suggested
+citation provided by a call to the `citation()` function as follows:
+
+``` r
+citation("aurora")
+#> To cite codigo in publications use:
+#> 
+#>   Anita Makori and Ernest Guevarra (2024). codigo: Interface to the
+#>   International Classification of Diseases (ICD) API. R package version
+#>   0.0.9000. URL https://oxford-ihtm.io/codigo/
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Manual{,
+#>     title = {codigo: Interface to the International Classification of Diseases (ICD) API},
+#>     author = {{Anita Makori} and {Ernest Guevarra}},
+#>     year = {2024},
+#>     note = {R package version 0.0.9000},
+#>     url = {https://oxford-ihtm.io/codigo/},
+#>   }
+```
+
 ## Community guidelines
+
+Feedback, bug reports and feature requests are welcome; file issues or
+seek support [here](https://github.com/OxfordIHTM/aurora/issues). If you
+would like to contribute to the package, please see our [contributing
+guidelines](https://oxford-ihtm.io/aurora/CONTRIBUTING.html).
+
+This project is released with a [Contributor Code of
+Conduct](https://oxford-ihtm.io/aurora/CODE_OF_CONDUCT.html). By
+participating in this project you agree to abide by its terms.

@@ -4,7 +4,7 @@
 \name{aurora}
 \alias{aurora-package}
 \alias{aurora}
-\title{Interface to the Oxford University Research Archive}
+\title{Interface to the Oxford University Research Archive (ORA) API}
 \description{
 The \href{https://ora.ox.ac.uk/}{Oxford University Research Archive (ORA)} is an
 Open Access platform and is the institutional repository for the
@@ -21,6 +21,7 @@ Useful links:
 \itemize{
   \item \url{https://oxford-ihtm.io/aurora/}
   \item \url{https://github.com/OxfordIHTM/aurora}
+  \item \url{http://oxford-ihtm.io/aurora/}
   \item Report bugs at \url{https://github.com/OxfordIHTM/aurora/issues}
 }
 

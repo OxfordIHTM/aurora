@@ -12,7 +12,7 @@
 #' @export
 #'
 
-ora_identify_structure <- function(ora_xml) {
+ora_structure_identify <- function(ora_xml) {
   field_names <- ora_xml |>
     xml2::xml_children() |>
     xml2::xml_children() |>

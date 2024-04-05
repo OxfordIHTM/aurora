@@ -1,5 +1,5 @@
 #'
-#' Interface to the Oxford University Research Archive
+#' Interface to the Oxford University Research Archive (ORA) API
 #'
 #' The [Oxford University Research Archive (ORA)](https://ora.ox.ac.uk/) is an
 #' Open Access platform and is the institutional repository for the

@@ -15,7 +15,9 @@
 #'
 #' @examples
 #' ora_list_records()
+#' ora_list_records_id()
 #'
+#' @rdname ora_list_records
 #' @export
 #'
 
@@ -39,6 +41,44 @@ ora_list_records <- function(base_url = "https://ora.ox.ac.uk/oai2",
   req <- req |>
     httr2::req_url_query(
       verb = "ListRecords",
+      metadataPrefix = metadata_prefix
+    )
+
+  ## Perform request ----
+  resp <- req |>
+    httr2::req_perform() |>
+    httr2::resp_body_xml()
+
+  ## Return resp ----
+  resp
+}
+
+
+#'
+#' @rdname ora_list_records
+#' @export
+#'
+
+ora_list_records_id <- function(base_url = "https://ora.ox.ac.uk/oai2",
+                                metadata_prefix = c("oai_dc",
+                                                    "datacite_dc",
+                                                    "dart_dc",
+                                                    "solo_dc",
+                                                    "base_dc",
+                                                    "oai_openaire",
+                                                    "uketd_dc",
+                                                    "rioxx_terms",
+                                                    "rioxx_terms_cc0")) {
+  ## Determine prefix ----
+  metadata_prefix <- match.arg(metadata_prefix)
+
+  ## Make base request ----
+  req <- httr2::request(base_url)
+
+  ## Add query ----
+  req <- req |>
+    httr2::req_url_query(
+      verb = "ListIdentifiers",
       metadataPrefix = metadata_prefix
     )
 

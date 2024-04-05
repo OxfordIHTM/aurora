@@ -2,9 +2,16 @@
 % Please edit documentation in R/ora_list_records.R
 \name{ora_list_records}
 \alias{ora_list_records}
+\alias{ora_list_records_id}
 \title{List records}
 \usage{
 ora_list_records(
+  base_url = "https://ora.ox.ac.uk/oai2",
+  metadata_prefix = c("oai_dc", "datacite_dc", "dart_dc", "solo_dc", "base_dc",
+    "oai_openaire", "uketd_dc", "rioxx_terms", "rioxx_terms_cc0")
+)
+
+ora_list_records_id(
   base_url = "https://ora.ox.ac.uk/oai2",
   metadata_prefix = c("oai_dc", "datacite_dc", "dart_dc", "solo_dc", "base_dc",
     "oai_openaire", "uketd_dc", "rioxx_terms", "rioxx_terms_cc0")
@@ -32,5 +39,6 @@ several formats. Not all formats are supported for all records.
 
 \examples{
 ora_list_records()
+ora_list_records_id()
 
 }
