@@ -49,8 +49,8 @@ OAI responses into tabular formats useful for analysis.
 
 ## Installation
 
-`aurora` is not yet on CRAN but can be installed from the [Oxford IHTM R
-universe](https://oxfordihtm.r-universe.dev) as follows:
+`aurora` is not yet on CRAN but can be installed from the [Oxford IHTM
+R-universe](https://oxfordihtm.r-universe.dev) as follows:
 
 ``` r
 install.packages(
@@ -70,9 +70,9 @@ citation provided by a call to the `citation()` function as follows:
 citation("aurora")
 #> To cite aurora in publications use:
 #> 
-#>   Ernest Guevarra (2024). aurora: Interface to the Oxord University
-#>   Research Archive (ORA) API. R package version 0.0.9000. URL
-#>   https://oxford-ihtm.io/aurora/
+#>   Ernest Guevarra (2024). _aurora: Interface to the Oxord University
+#>   Research Archive (ORA) API_. R package version 0.0.9000,
+#>   <https://oxford-ihtm.io/aurora/>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 

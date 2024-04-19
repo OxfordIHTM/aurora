@@ -41,7 +41,7 @@ From here, the plan is to develope functions that structure these XML OAI respon
 
 ## Installation
 
-`aurora` is not yet on CRAN but can be installed from the [Oxford IHTM R universe](https://oxfordihtm.r-universe.dev) as follows:
+`aurora` is not yet on CRAN but can be installed from the [Oxford IHTM R-universe](https://oxfordihtm.r-universe.dev) as follows:
 
 ```{r install-r-universe, eval = FALSE}
 install.packages(

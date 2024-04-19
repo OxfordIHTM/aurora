@@ -1,16 +1,9 @@
-citHeader("To cite aurora in publications use:")
-
-citEntry(
-  entry    = "Manual",
-  title    = "aurora: Interface to the Oxord University Research Archive (ORA) API",
-  author   = person("Ernest Guevarra"),
-  year     = "2024",
-  note     = "R package version 0.0.9000",
-  url      = "https://oxford-ihtm.io/aurora/",
-  textVersion = paste(
-    paste("Ernest Guevarra (2024).",
-          "aurora: Interface to the Oxord University Research Archive (ORA) API.",
-          "R package version 0.0.9000.",
-          "URL https://oxford-ihtm.io/aurora/")
-  )
+bibentry(
+  bibtype = "Manual",
+  header  = "To cite aurora in publications use:",
+  title   = "aurora: Interface to the Oxord University Research Archive (ORA) API",
+  author  = person("Ernest Guevarra"),
+  year    = "2024",
+  note    = "R package version 0.0.9000",
+  url     = "https://oxford-ihtm.io/aurora/"
 )
