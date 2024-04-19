@@ -6,7 +6,7 @@
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
     
 
-    <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-primary"><div class="container">
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-primary" data-bs-theme="light"><div class="container">
     
     <a class="navbar-brand me-2" href="../index.html">aurora</a>
 
@@ -66,31 +66,44 @@
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">ora_list_meta_formats</span><span class="op">(</span>base_url <span class="op">=</span> <span class="st">"https://ora.ox.ac.uk/oai2"</span><span class="op">)</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">ora_list_meta_formats</span><span class="op">(</span>base_url <span class="op">=</span> <span class="st">"https://ora.ox.ac.uk/oai2"</span>, tabular <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
     <dl><dt>base_url</dt>
 <dd><p>The OAI-PMH endpoint base URL. Set to
-https://ora.ox.ac.uk/oai2</p></dd>
+https://ora.ox.ac.uk/oai2.</p></dd>
+
+
+<dt>tabular</dt>
+<dd><p>Logical. Should response be structured into a table?
+Default is TRUE.</p></dd>
 
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
     
 
-<p>XML OAI response</p>
+<p>A data.frame (default) or an XML document (if <code>tabular = FALSE</code>)
+with identifying information on the OAI metadata formats.</p>
     </div>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">ora_list_meta_formats</span><span class="op">(</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> {xml_document}</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> &lt;OAI-PMH schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] &lt;responseDate&gt;2024-04-05T11:08:11Z&lt;/responseDate&gt;</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2] &lt;request verb="ListMetadataFormats"&gt;https://ora.ox.ac.uk/oai2&lt;/request&gt;</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3] &lt;ListMetadataFormats&gt;\n  &lt;metadataFormat&gt;\n    &lt;metadataPrefix&gt;oai_dc&lt;/me ...</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 9 × 5</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   responseDate         request           metadataPrefix schema metadataNamespace</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>             <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>          <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>            </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">1</span> 2024-04-19T09:20:16Z https://ora.ox.a… oai_dc         http:… http://www.opena…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">2</span> 2024-04-19T09:20:16Z https://ora.ox.a… solo_dc        http:… http://ora.ox.ac…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">3</span> 2024-04-19T09:20:16Z https://ora.ox.a… uketd_dc       http:… http://naca.cent…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">4</span> 2024-04-19T09:20:16Z https://ora.ox.a… datacite_dc    https… https://schema.d…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">5</span> 2024-04-19T09:20:16Z https://ora.ox.a… dart_dc        http:… http://www.opena…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> 2024-04-19T09:20:16Z https://ora.ox.a… base_dc        http:… http://www.opena…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">7</span> 2024-04-19T09:20:16Z https://ora.ox.a… oai_openaire   https… http://namespace…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">8</span> 2024-04-19T09:20:16Z https://ora.ox.a… rioxx_terms    https… http://www.rioxx…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">9</span> 2024-04-19T09:20:16Z https://ora.ox.a… rioxx_terms_c… https… http://www.rioxx…</span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
     </div>
@@ -103,7 +116,7 @@ https://ora.ox.ac.uk/oai2</p></dd>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.8.</p>
 </div>
 
     </footer></div>
