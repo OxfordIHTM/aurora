@@ -2,19 +2,23 @@
 % Please edit documentation in R/ora_identify.R
 \name{ora_identify}
 \alias{ora_identify}
-\title{Identify}
+\title{Retrieve information about Oxford University OAI repository}
 \usage{
-ora_identify(base_url = "https://ora.ox.ac.uk/oai2")
+ora_identify(base_url = "https://ora.ox.ac.uk/oai2", tabular = TRUE)
 }
 \arguments{
 \item{base_url}{The OAI-PMH endpoint base URL. Set to
-https://ora.ox.ac.uk/oai2}
+https://ora.ox.ac.uk/oai2.}
+
+\item{tabular}{Logical. Should response be structured into a table?
+Default is TRUE.}
 }
 \value{
-XML OAI response
+A data.frame (default) or an XML document (if \code{tabular = FALSE})
+with identifying information on the OAI repository.
 }
 \description{
-Identify
+Retrieve information about Oxford University OAI repository
 }
 \examples{
 ora_identify()

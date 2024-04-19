@@ -18,12 +18,12 @@ coverage](https://codecov.io/gh/OxfordIHTM/ourora/branch/main/graph/badge.svg)](
 
 The [Oxford University Research Archive (ORA)](https://ora.ox.ac.uk/) is
 an Open Access platform and is the institutional repository for the
-University of Oxford. ORA serves as a permanent and secure online
-archive of research materials produced by members of the University of
-Oxford. ORA supports and participates in the Open Archives Initiative
-(OAI). ORA is a registered OAI-PMH data-provider and provides metadata
-for all public records which is updated as soon as each record is
-published or updated. ORA also provides API access to its resources.
+[University of Oxford](https://ox.ac.uk). ORA serves as a permanent and
+secure online archive of research materials produced by members of the
+University of Oxford. ORA supports and participates in the Open Archives
+Initiative (OAI). ORA is a registered OAI-PMH data-provider and provides
+metadata for all public records which is updated as soon as each record
+is published or updated. ORA also provides API access to its resources.
 This package provides low level functions to interface with the [ORA
 API](https://ora.ox.ac.uk/api).
 
@@ -35,7 +35,8 @@ the rest of the package documentation have a high likelihood of changing
 interface or approach as we aim for a stable working version.
 
 Currently, the package provides functions that wrap each of the verb
-endpoints provided by OAI 2.0:
+request endpoints provided by [OAI
+2.0](https://www.openarchives.org/OAI/openarchivesprotocol.html):
 
 - `Identify`
 - `ListRecords`
@@ -44,12 +45,12 @@ endpoints provided by OAI 2.0:
 - `ListIdentifiers`
 
 From here, the plan is to develope functions that structure these XML
-OAI responses into useful tabular formats useful for analysis.
+OAI responses into tabular formats useful for analysis.
 
 ## Installation
 
-`aurora` is not yet on CRAN but can be installed from the [Oxford IHTM R
-universe](https://oxfordihtm.r-universe.dev) as follows:
+`aurora` is not yet on CRAN but can be installed from the [Oxford IHTM
+R-universe](https://oxfordihtm.r-universe.dev) as follows:
 
 ``` r
 install.packages(
@@ -67,20 +68,20 @@ citation provided by a call to the `citation()` function as follows:
 
 ``` r
 citation("aurora")
-#> To cite codigo in publications use:
+#> To cite aurora in publications use:
 #> 
-#>   Anita Makori and Ernest Guevarra (2024). codigo: Interface to the
-#>   International Classification of Diseases (ICD) API. R package version
-#>   0.0.9000. URL https://oxford-ihtm.io/codigo/
+#>   Ernest Guevarra (2024). _aurora: Interface to the Oxord University
+#>   Research Archive (ORA) API_. R package version 0.0.9000,
+#>   <https://oxford-ihtm.io/aurora/>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
-#>     title = {codigo: Interface to the International Classification of Diseases (ICD) API},
-#>     author = {{Anita Makori} and {Ernest Guevarra}},
+#>     title = {aurora: Interface to the Oxord University Research Archive (ORA) API},
+#>     author = {{Ernest Guevarra}},
 #>     year = {2024},
 #>     note = {R package version 0.0.9000},
-#>     url = {https://oxford-ihtm.io/codigo/},
+#>     url = {https://oxford-ihtm.io/aurora/},
 #>   }
 ```
 

@@ -2,20 +2,24 @@
 % Please edit documentation in R/ora_structure.R
 \name{ora_structure_identify}
 \alias{ora_structure_identify}
+\alias{ora_structure_meta_formats}
 \title{Structure ORA XML outputs}
 \usage{
 ora_structure_identify(ora_xml)
+
+ora_structure_meta_formats(ora_xml)
 }
 \arguments{
-\item{ora_xml}{XML outputs}
+\item{ora_xml}{XML outputs.}
 }
 \value{
-A structured output
+A tibble outputs.
 }
 \description{
 Structure ORA XML outputs
 }
 \examples{
-#ora_identify() |> ora_identify_structure()
+ora_identify()
+ora_list_meta_formats()
 
 }

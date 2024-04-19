@@ -15,6 +15,10 @@
 #' @name aurora
 #' @keywords internal
 #' @importFrom httr2 request req_url_query req_perform resp_body_xml
-#' @importFrom xml2 xml_children xml_contents xml_attrs
+#' @importFrom xml2 as_list
+#' @importFrom dplyr bind_rows bind_cols
+#' @importFrom tidyr unnest
+#' @importFrom rlang .data
+#' @importFrom tibble tibble
 #'
 "_PACKAGE"
