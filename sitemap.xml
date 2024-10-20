@@ -1,42 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/404.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/CODE_OF_CONDUCT.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/CONTRIBUTING.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/index.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/reference/aurora.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/reference/ora_identify.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/reference/ora_list_meta_formats.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/reference/ora_list_records.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/reference/ora_list_sets.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/aurora/reference/ora_structure.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://oxford-ihtm.io/aurora/404.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/CODE_OF_CONDUCT.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/CONTRIBUTING.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/LICENSE.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/authors.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/index.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/reference/aurora.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/reference/index.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/reference/ora_identify.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/reference/ora_list_meta_formats.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/reference/ora_list_records.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/reference/ora_list_sets.html</loc></url>
+<url><loc>https://oxford-ihtm.io/aurora/reference/ora_structure.html</loc></url>
 </urlset>
+
