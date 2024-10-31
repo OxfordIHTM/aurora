@@ -35,22 +35,22 @@ the rest of the package documentation have a high likelihood of changing
 interface or approach as we aim for a stable working version.
 
 Currently, the package provides functions that wrap each of the verb
-request endpoints provided by [OAI
-2.0](https://www.openarchives.org/OAI/openarchivesprotocol.html):
+request endpoints provided by
+[OAI 2.0](https://www.openarchives.org/OAI/openarchivesprotocol.html):
 
-- `Identify`
-- `ListRecords`
-- `ListSets`
-- `ListMetadataFormats`
-- `ListIdentifiers`
+  - `Identify`
+  - `ListRecords`
+  - `ListSets`
+  - `ListMetadataFormats`
+  - `ListIdentifiers`
 
-From here, the plan is to develope functions that structure these XML
-OAI responses into tabular formats useful for analysis.
+From here, the plan is to develop functions that structure these XML OAI
+responses into tabular formats useful for analysis.
 
 ## Installation
 
-`aurora` is not yet on CRAN but can be installed from the [Oxford IHTM
-R-universe](https://oxfordihtm.r-universe.dev) as follows:
+`aurora` is not yet on CRAN but can be installed from the [Oxford
+iHealth R Universe](https://oxfordihtm.r-universe.dev) as follows:
 
 ``` r
 install.packages(
