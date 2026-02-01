@@ -68,8 +68,9 @@ citation("aurora")
 #> To cite aurora in publications use:
 #> 
 #>   Ernest Guevarra (2024). _aurora: Interface to the Oxford University
-#>   Research Archive (ORA) API_. R package version 0.0.9000,
-#>   <https://oxford-ihtm.io/aurora/>.
+#>   Research Archive (ORA) API_. doi:10.5281/zenodo.18452028
+#>   <https://doi.org/10.5281/zenodo.18452028>, R package version
+#>   0.0.9000, <https://oxford-ihtm.io/aurora/>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
@@ -79,6 +80,7 @@ citation("aurora")
 #>     year = {2024},
 #>     note = {R package version 0.0.9000},
 #>     url = {https://oxford-ihtm.io/aurora/},
+#>     doi = {10.5281/zenodo.18452028},
 #>   }
 ```
 

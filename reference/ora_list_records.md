@@ -46,13 +46,13 @@ formats are supported for all records.
 ora_list_records()
 #> {xml_document}
 #> <OAI-PMH schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-#> [1] <responseDate>2026-02-01T22:08:08Z</responseDate>
+#> [1] <responseDate>2026-02-01T22:18:06Z</responseDate>
 #> [2] <request metadataPrefix="oai_dc" verb="ListRecords">https://ora.ox.ac.uk/ ...
 #> [3] <ListRecords>\n  <record>\n    <header>\n      <identifier>oai:ora.ox.ac. ...
 ora_list_records_id()
 #> {xml_document}
 #> <OAI-PMH schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-#> [1] <responseDate>2026-02-01T22:08:11Z</responseDate>
+#> [1] <responseDate>2026-02-01T22:18:09Z</responseDate>
 #> [2] <request metadataPrefix="oai_dc" verb="ListIdentifiers">https://ora.ox.ac ...
 #> [3] <ListIdentifiers>\n  <header>\n    <identifier>oai:ora.ox.ac.uk:uuid:0000 ...
 ```
