@@ -1,0 +1,151 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "aurora" in publications use:'
+type: software
+license: GPL-3.0-or-later
+title: 'aurora: Interface to the Oxford University Research Archive'
+version: 0.0.0.9000
+identifiers:
+- type: url
+  value: http://oxford-ihtm.io/aurora/
+abstract: The Oxford University Research Archive (ORA) <https://ora.ox.ac.uk/> is
+  an Open Access platform and is the institutional repository for the University of
+  Oxford. ORA serves as a permanent and secure online archive of research materials
+  produced by members of the University of Oxford. ORA supports and participates in
+  the Open Archives Initiative (OAI). ORA is a registered OAI-PMH data-provider and
+  provides metadata for all public records which is updated as soon as each record
+  is published or updated. ORA also provides API access to its resources. This package
+  provides low level functions to interface with the ORA API <https://ora.ox.ac.uk/api>.
+authors:
+- family-names: Guevarra
+  given-names: Ernest
+  email: ernest@guevarra.io
+  orcid: https://orcid.org/0000-0002-4887-4415
+preferred-citation:
+  type: manual
+  title: 'aurora: Interface to the Oxford University Research Archive (ORA) API'
+  authors:
+  - name: Ernest Guevarra
+  year: '2024'
+  notes: R package version 0.0.9000
+  url: https://oxford-ihtm.io/aurora/
+repository-code: https://github.com/OxfordIHTM/aurora
+url: https://oxford-ihtm.io/aurora/
+contact:
+- family-names: Guevarra
+  given-names: Ernest
+  email: ernest@guevarra.io
+  orcid: https://orcid.org/0000-0002-4887-4415
+keywords:
+- api
+- oai
+- oxford-university
+- r
+- rstats
+references:
+- type: software
+  title: dplyr
+  abstract: 'dplyr: A Grammar of Data Manipulation'
+  notes: Imports
+  url: https://dplyr.tidyverse.org
+  repository: https://CRAN.R-project.org/package=dplyr
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+    orcid: https://orcid.org/0000-0003-4757-117X
+  - family-names: François
+    given-names: Romain
+    orcid: https://orcid.org/0000-0002-2444-4226
+  - family-names: Henry
+    given-names: Lionel
+  - family-names: Müller
+    given-names: Kirill
+    orcid: https://orcid.org/0000-0002-1416-3412
+  - family-names: Vaughan
+    given-names: Davis
+    email: davis@posit.co
+    orcid: https://orcid.org/0000-0003-4777-038X
+  year: '2026'
+  doi: 10.32614/CRAN.package.dplyr
+- type: software
+  title: httr2
+  abstract: 'httr2: Perform HTTP Requests and Process the Responses'
+  notes: Imports
+  url: https://httr2.r-lib.org
+  repository: https://CRAN.R-project.org/package=httr2
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2026'
+  doi: 10.32614/CRAN.package.httr2
+- type: software
+  title: rlang
+  abstract: 'rlang: Functions for Base Types and Core R and ''Tidyverse'' Features'
+  notes: Imports
+  url: https://rlang.r-lib.org
+  repository: https://CRAN.R-project.org/package=rlang
+  authors:
+  - family-names: Henry
+    given-names: Lionel
+    email: lionel@posit.co
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2026'
+  doi: 10.32614/CRAN.package.rlang
+- type: software
+  title: tibble
+  abstract: 'tibble: Simple Data Frames'
+  notes: Imports
+  url: https://tibble.tidyverse.org/
+  repository: https://CRAN.R-project.org/package=tibble
+  authors:
+  - family-names: Müller
+    given-names: Kirill
+    email: kirill@cynkra.com
+    orcid: https://orcid.org/0000-0002-1416-3412
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+  year: '2026'
+  doi: 10.32614/CRAN.package.tibble
+- type: software
+  title: tidyr
+  abstract: 'tidyr: Tidy Messy Data'
+  notes: Imports
+  url: https://tidyr.tidyverse.org
+  repository: https://CRAN.R-project.org/package=tidyr
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  - family-names: Vaughan
+    given-names: Davis
+    email: davis@posit.co
+  - family-names: Girlich
+    given-names: Maximilian
+  year: '2026'
+  doi: 10.32614/CRAN.package.tidyr
+- type: software
+  title: xml2
+  abstract: 'xml2: Parse XML'
+  notes: Imports
+  url: https://xml2.r-lib.org
+  repository: https://CRAN.R-project.org/package=xml2
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+  - family-names: Hester
+    given-names: Jim
+  - family-names: Ooms
+    given-names: Jeroen
+    email: jeroenooms@gmail.com
+  year: '2026'
+  doi: 10.32614/CRAN.package.xml2
+

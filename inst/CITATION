@@ -1,7 +1,7 @@
 bibentry(
   bibtype = "Manual",
   header  = "To cite aurora in publications use:",
-  title   = "aurora: Interface to the Oxord University Research Archive (ORA) API",
+  title   = "aurora: Interface to the Oxford University Research Archive (ORA) API",
   author  = person("Ernest Guevarra"),
   year    = "2024",
   note    = "R package version 0.0.9000",

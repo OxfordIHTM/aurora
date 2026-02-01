@@ -17,6 +17,8 @@ Description: The Oxford University Research Archive (ORA) <https://ora.ox.ac.uk/
     provides API access to its resources. This package provides low level
     functions to interface with the ORA API <https://ora.ox.ac.uk/api>.
 License: GPL (>= 3)
+Depends: 
+    R (>= 4.1.0)
 Imports: 
     dplyr,
     httr2,
@@ -27,7 +29,7 @@ Imports:
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Roxygen: list(markdown = TRUE)
 URL: https://oxford-ihtm.io/aurora/, https://github.com/OxfordIHTM/aurora, http://oxford-ihtm.io/aurora/
 BugReports: https://github.com/OxfordIHTM/aurora/issues
