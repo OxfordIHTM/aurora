@@ -9,6 +9,7 @@ type: software
 license: GPL-3.0-or-later
 title: 'aurora: Interface to the Oxford University Research Archive'
 version: 0.0.0.9000
+doi: 10.5281/zenodo.18452028
 identifiers:
 - type: url
   value: http://oxford-ihtm.io/aurora/
@@ -33,6 +34,7 @@ preferred-citation:
   year: '2024'
   notes: R package version 0.0.9000
   url: https://oxford-ihtm.io/aurora/
+  doi: 10.5281/zenodo.18452028
 repository-code: https://github.com/OxfordIHTM/aurora
 url: https://oxford-ihtm.io/aurora/
 contact:
@@ -47,6 +49,17 @@ keywords:
 - r
 - rstats
 references:
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  institution:
+    name: R Foundation for Statistical Computing
+    address: Vienna, Austria
+  year: '2026'
+  version: '>= 4.1.0'
 - type: software
   title: dplyr
   abstract: 'dplyr: A Grammar of Data Manipulation'
