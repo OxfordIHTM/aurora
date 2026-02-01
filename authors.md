@@ -8,7 +8,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/OxfordIHTM/aurora/blob/main/inst/CITATION)
+[`inst/CITATION`](https://github.com/OxfordIHTM/aurora/blob/v0.0.0.9000/inst/CITATION)
 
 Ernest Guevarra (2024). *aurora: Interface to the Oxford University
 Research Archive (ORA) API*. R package version 0.0.9000,
